@@ -1,0 +1,53 @@
+.calendar {
+
+    .sidebar {
+        flex: 1 !important;
+        max-width: 60px;
+
+        .top {
+            .logo {
+                display: none;
+            }
+        }
+
+        .center {
+
+            padding: 0;
+
+            span {
+                display: none;
+            }
+
+            .title {
+                display: none;
+            }
+            
+            .icon {
+                font-size: 24px;   
+            }
+
+            ul {
+                margin-top: 6px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                li {
+                    margin: 10px 0;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .content {
+        flex: 6 !important;
+    }
+
+    .bottom-theme {
+        display: none;
+    }
+    
+    .calendar-data {
+        height: calc(100vh - 60px);
+    }
+}

@@ -1,0 +1,176 @@
+.app.dark {
+    background-color: #121212;
+    color: #fff;
+
+    .chart-grid {
+        stroke: rgba(255, 255, 255, 0.12);
+    }
+
+    .table {
+        background-color: #121212;
+
+        .table-cell {
+            color: gray;
+        }
+    }
+
+    .navbar {
+        border-color: rgba(255, 255, 255, 0.05);
+        background-color: #0d0d0e;
+
+        .icon {
+            color: #cccccc;
+
+            &:hover {
+                color: #7a7979;
+            }
+        }
+
+        .search {
+            color: #fff !important;
+
+        }
+    }
+
+    .sidebar {
+        background-color: #0d0d0e;
+        border-color: transparent;
+
+        .top {
+            border-color: rgba(255, 255, 255, 0.05);
+
+            .logo {
+                color: #cccccc;
+
+                &:hover {
+                    color: #7a7979;
+                }
+            }
+        }
+    }
+    
+    .data-table {
+        .data-grid {
+            color: gray;
+            border: none;
+
+            .view-button, 
+            .delete-button,
+            .cell-with-status {
+                color: gray;
+                border: none;
+            }
+        }
+
+        .datatable-title {
+            .link {
+                color: rgb(43, 170, 43);
+                border: 1px solid rgb(69, 168, 69);
+            }
+        }
+
+        .cell-with-status {
+
+            &.Ativo {
+                color: rgb(147, 248, 147);
+            }
+            &.Pendente {
+                color: rgb(241, 201, 99);
+            }
+            &.Cancelado {
+                color: rgb(196, 74, 98);
+            }
+        }
+
+        .cell-action {
+            .view-button {
+                color: rgb(86, 128, 243);
+            }
+
+            .delete-button {
+                color: rgb(196, 74, 98);
+            }
+        }
+    }
+
+    .home {
+        .home-container {
+            .list-container {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+
+    .chart {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+       
+    .featured {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .widget {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+        color: gray;
+    }
+
+    .new {
+        .new-container {
+            .top {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+            }
+
+            .bottom {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+
+                .right {
+                        form {
+                            border-color: rgba(255, 255, 255, 0.12);
+                        }
+                    }
+            }
+
+            input {
+            background-color: transparent;
+            color: antiquewhite;
+        }
+
+
+        }
+    }
+
+    .single {
+        .single-container {
+            .top {
+                .left {
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+                }
+
+                .right {
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            .bottom {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        color: gray;
+    }
+
+    .css-levciy-MuiTablePagination-displayedRows {
+        color: gray;
+    }
+}
